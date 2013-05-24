@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class menu_bar_filter {
+  package { 'MenuBarFilter':
+    provider => 'compressed_app',
+    source   => 'https://github.com/downloads/wez/MenuBarFilter/MenuBarFilter.zip'
+  }
 }
