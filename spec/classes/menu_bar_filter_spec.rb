@@ -6,7 +6,7 @@ describe 'menu_bar_filter' do
   it do
     should contain_package('MenuBarFilter').with({
        :provider => 'compressed_app',
-       :source   => 'https://github.com/downloads/wez/MenuBarFilter/MenuBarFilter.zip'
+       :source   => 'http://eece.github.com/MenuBarFilter/MenuBarFilter.zip'
     })
   end
 end
